@@ -1,11 +1,19 @@
-# Directory tree plugin
-
-Add directory tree to markdown files via [markdown-magic](https://github.com/DavidWells/markdown-magic)
 
 ## Install
 
 ```
-npm i markdown-magic markdown-magic-directory-tree --save-dev
+npm i git+https://github.com/ellyye/markdown-magic-cli.git -g
+```
+
+## 功能
+
+1. [markdown-magic](https://github.com/DavidWells/markdown-magic#readme) 基本功能
+2. directory-tree 生成目录树
+
+## Usage
+
+```bash
+mkdown magic
 ```
 
 ## Adding the plugin
